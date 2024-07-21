@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{font-family:Inter;color: black;}
+
+/* Global Font Sizes */
+.fs-28{font-size: 28px;}
+.fs-16{font-size: 16px;}
+
+/* Global Font weights */
+.medium{font-weight: 600;}
+.semi-bold{font-weight: 700;}
+
+/* Global Padding  */
+.p-i0{padding-inline: 0;}
+.p-b0{padding-block: 0;}
+.pt-10{padding-top: 10px;}
+.pt-20{padding-top: 20px;}
+.pt-30{padding-top: 30px;}
+.pt-40{padding-top: 40px;}
+.pb-10{padding-bottom: 10px;}
+.pb-20{padding-bottom: 20px;}
+.pb-30{padding-bottom: 30px;}
+.pb-40{padding-bottom: 40px;}
+
+/* Global Margin  */
+.m-i0{margin-inline: 0;}
+
+/* Text Align */
+.left{text-align: left;}
+.right{text-align: right;}
+.center{text-align: center;}
+
+/* Form Style */
+label.form-label{color: #000;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;}
+select{border: 1px solid #d8d6de;height: 38px;font-size: 14px;font-weight: 600;margin-bottom: 10px;width: 100%;padding-left: 10px;border-radius: 4px;}
+.w-100{width: 100%;}
+
+/* Global Colors */
+:root{
+    --black:black;
+    --white:white;
+    --blue:#315EFB;
+    --grey:#91989F;
+    --red:#FF0000;
+}
+
+/* Global Buttons */
+.button{border: 1px solid var(--blue); padding: 8px 30px;border-radius:10px;color: var(--white);font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;}
+.transparent-btn {border-radius: 6px;border: 1px solid #D2D2D2;color: black;font-size: 14px;font-style: normal;font-weight: 500;font-family: Inter;padding: 3px 30px;width: -webkit-fill-available;margin-bottom: 10px;}
+.blue-btn{background: var(--blue);color: var(--white);border: 1px solid var(--blue);}
+.blue-btn:hover, .blue-btn:focus{color:var(--blue);background: var(--white);border: 1px solid var(--blue);}
+.grey-btn{background: var(--grey);color: var(--white); border: 1px solid var(--grey);}
+.grey-btn:hover, .grey-btn:focus{color:var(--grey);background: var(--white);border: 1px solid var(--grey);}
+.border-line{border-bottom: 1px solid #AEAEAE;}
+
+/* Create Sales Invoice */
+.create_sale_invoice{padding: 20px; border-radius: 15px;background: var(--white);box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);}
+.create_sale_invoice .head-box{display: flex;justify-content: space-between;align-items: center;}
+.form-box{padding-block: 30px;}
+.check-box{display: flex;align-items: normal;gap: 10px;justify-content: end;}
+.col-rw{display: flex;width: 100%;justify-content: space-between;gap: 10px;align-items: center;}
+.sale-table.table > thead > tr > th {color: #FFF;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;text-align: center; border: 1px solid #ddd;background: #315EFB;color: white;height: 35px;}
+.create_sale_invoice .col {margin-left: 5px;}
+
+.create_sale_invoice #tab1 .accordion-content textarea{height: 76px !important;}
+.sale-table.list-table.table > thead > tr > th{border: none;height: 40px;text-align: left;}
+.sale-table.list-table.table > tbody > tr > td{color: #000; text-align: left;font-family: Poppins;font-size: 16px;font-style: normal;font-weight: 500;line-height: 20px;vertical-align: middle; border-left: none;border-right: none;border-top: none;height: 40px;}
+.create_sale_invoice .head-box .box2 form{justify-content: flex-start;border-radius: 10px;border: 1px solid #91989F;background: #FFF;width: 45%;padding-right: 10px;}
+.create_sale_invoice .head-box .box2 form input{border: none;box-shadow: none;margin-bottom: 0;border-radius: 10px;}
+.create_sale_invoice .head-box .box2{gap: 20px;}
+.create_sale_invoice .head-box .box2 .dropdown button{border: none;background: none;}
+.airline-rw{display: flex;align-items: center;}
+
+.airline-rw .check-box{align-items: center;justify-content: start;}
+.table-btn {padding-right: 55px;}
+.table-box .table.sale-table{width: 70%;}
+.radio-box {display: flex;justify-content: flex-start;align-items: center;border-bottom: 1px solid #B6B6B6;margin-bottom: 20px;}
+.main-box{border-radius: 5px;border: 1px solid #B6B6B6;background: #FFF;margin-top: 15px;}
+.radio-box .form-check input{display: none;}
+.radio-box .form-check label{padding-inline:16px;color: #000;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 500;cursor: pointer;}
+
+.radio-box .form-check>input:checked+label {padding: 10px 16px;background: #315EFB;color: white;margin-bottom: 0;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 500;}
+.table-box {padding-inline: 20px;display: flex;justify-content: space-between;align-items: center;}
+.radio-charges{margin-bottom: 0;border-top: 1px solid #B6B6B6;border-bottom: 0;}
+.airline-rw .check-box label{margin-bottom: 0;color: #000;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;}
+.btn-box{display: flex;justify-content: flex-end;align-items: center;gap: 20px;}
+ul#tabs-nav {list-style: none;overflow: auto;display: flex;justify-content: start;align-items: center;gap: 30px;margin-block: 30px;}
+ul#tabs-nav li {font-weight: bold;padding: 10px 20px;border-radius: 5px 5px 5px 5px;cursor: pointer;text-align: center;}
+
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {border-radius: 7px;background: #315EFB;color: white !important;}
+ul#tabs-nav li:hover > a,
+ul#tabs-nav li.active > a{color: white !important;}
+#tabs-nav li a {text-decoration: none;color: #000;font-family: Poppins;font-size: 18px;font-style: normal;font-weight: 600;line-height: 22px;}
+.btn-box .button{width: unset !important;}
+.table thead th:first-child {border-top-left-radius: 10px;}
+.table thead th:last-child {border-top-right-radius: 10px;}
+
+.table tbody tr:last-child td:first-child {border-bottom-left-radius: 10px;}
+.table tbody tr:last-child td:last-child {border-bottom-right-radius: 10px;}
+.sale-table.table > tbody > tr > td{height: 35px; border: 1px solid #B1B1B1; text-align: center;}
+.accordion .acc-btn {position: relative;display: block;text-align: left;width: 100%;padding: 1em 0;border: none;background: none;outline: none;
+color: #315EFB;font-family: Inter;font-size: 20px;font-style: normal;font-weight: 600;line-height: normal;}
+.accordion .acc-btn:hover, .accordion .acc-btn:focus {cursor: pointer;}
+.accordion .acc-btn:hover::after, .accordion .acc-btn:focus::after {cursor: pointer;color: var(--blue);border: 1px solid var(--blue);}
+
+.accordion .acc-btn .accordion-title {padding: 1em 1.5em 1em 0;}
+.accordion .acc-btn .icon {display: inline-block;position: absolute;top: 18px;right: 0;width: 22px;height: 22px;border: 1px solid;border-radius: 22px;}
+.accordion .acc-btn .icon::before {display: block;position: absolute;content: "";top: 9px;left: 5px;width: 10px;height: 2px;background: currentColor;}
+.accordion .acc-btn .icon::after {display: block;position: absolute;content: "";top: 5px;left: 9px;width: 2px;height: 10px;background: currentColor;}
+.accordion .acc-btn[aria-expanded=true] {color: var(--blue);}
+.accordion .acc-btn[aria-expanded=true] .icon::after {width: 0;font: optional;}
+.accordion .acc-btn[aria-expanded=true] + .accordion-content {opacity: 1;max-height: 100%;transition: all 200ms linear;will-change: opacity, max-height;}
+.accordion .accordion-content {opacity: 0;max-height: 0;overflow: hidden;transition: opacity 200ms linear, max-height 200ms linear;will-change: opacity, max-height;}
